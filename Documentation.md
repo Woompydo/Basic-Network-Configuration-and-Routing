@@ -32,3 +32,14 @@ We can also configure `g0/1` if we need to connect another switch to the router.
 
 
 ![](img/configureport.png)
+
+
+Next, we'll configure the PC's IP address as well.
+
+1. Open the PC, go to the **Desktop** tab, and click **IP Configuration**.
+2. Enter the IPv4 address. For the host portion (the last number), you can choose any valid number that isn't already being used by another device on the same network. I'll use `67` because it's funny, but feel free to choose any valid number.
+3. Set the subnet mask to the usual `255.255.255.0`.
+4. Set the default gateway to the router's IP address. In my case, the router's IP address is `192.168.1.1`.
+
+Repeat the same steps for the other computer. Remember that each computer must have a **unique IP address** on the same network, so you cannot assign both computers the same host address.
+
