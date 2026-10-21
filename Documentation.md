@@ -43,3 +43,8 @@ Next, we'll configure the PC's IP address as well.
 
 Repeat the same steps for the other computer. Remember that each computer must have a **unique IP address** on the same network, so you cannot assign both computers the same host address.
 
+![](img/pcconfig.png)
+
+And there you go! You should now be able to send PDUs to the other computer. If the PDU still shows **Failed**, the network might need a bit more time to process everything. Just fast-forward the simulation a little, and the PDU should eventually show **Successful**. Good stuff :3
+
+
