@@ -10,3 +10,5 @@ This project covers the basic network configuration using one router, one switch
 ![](img/forexample.png)
 
 For detailed instructions, please refer to `BasicDocumentation.md`.
+
+You can also check out `basicnetwork.pkt` to explore the basic network configuration project.
