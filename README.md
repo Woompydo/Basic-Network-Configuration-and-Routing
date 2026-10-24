@@ -18,7 +18,7 @@ You can also check out `basicnetwork.pkt` to explore the basic network configura
 
 This project builds on the previous one by adding another switch and two more computers, creating two separate networks connected to a single router.
 
-![](img/forexample.png)
+![](img/Result2nd.png)
 
 For detailed instructions, please refer to `2ndNetworkDocumentation.md`.
 
