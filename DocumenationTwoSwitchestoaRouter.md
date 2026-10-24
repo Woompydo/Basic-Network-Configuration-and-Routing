@@ -11,3 +11,7 @@ Next, we'll use Ethernet ports to connect the PCs to the switch, then connect th
 
 ![](img/image.png)
 
+Then we'll head to the router's CLI and do basically the same thing we did during the previous configuration. However, when entering the IP address, we want the third octet to be different from the first network. The first network uses `192.168.1.1`, so for the second network, I'll use `192.168.2.1` to keep things simple. Make sure to configure **GigabitEthernet 0/1 (G0/1)** as well.
+
+
+
