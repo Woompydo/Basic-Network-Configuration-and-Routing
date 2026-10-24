@@ -1,15 +1,23 @@
-After the documentation in `BasicDocumentation.md`, we'll continue by adding another switch to the router, just in case all the ports on the first switch are being used!
+# Adding a Second Network
 
-This process is basically the same as in the basic documentation. You'll just need to use a different port and possibly a slightly different IP address. We'll go trough it together :3
+## Step 1: Understand the Goal
 
+After the documentation in `BasicDocumentation.md`, we'll continue by adding another switch to the router, just in case all the ports on the first switch are being used! 
+This process is basically the same as in the basic documentation. You'll just need to use a different port and possibly a slightly different IP address.
+
+## Step 2: Add Another Switch and Two PCs
 
 Anyways, let's get started! First, we'll do the same thing as before by adding a switch and two PCs.
 
 ![](img/cisco1.png)
 
+## Step 3: Connect the Devices
+
 Next, we'll use Ethernet ports to connect the PCs to the switch, then connect the switch to the router's Gigabit Ethernet port. Remember to use a Gigabit Ethernet port when connecting the switch to the router. For the second switch, we'll use the Gigabit Ethernet 0/1 port.
 
 ![](img/image.png)
+
+## Step 4: Configure the Router's Second Interface
 
 Then we'll head to the router's CLI and do basically the same thing we did during the previous configuration. However, when entering the IP address, we want the third octet to be different from the first network. The first network uses `192.168.1.1`, so for the second network, I'll use `192.168.2.1` to keep things simple. Make sure to configure **GigabitEthernet 0/1 (G0/1)** as well.
 
