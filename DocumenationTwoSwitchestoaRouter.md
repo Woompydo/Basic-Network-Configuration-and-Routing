@@ -7,4 +7,5 @@ Anyways, let's get started! First, we'll do the same thing as before by adding a
 
 ![](img/cisco1.png)
 
-Next, we'll use Ethernet ports to connect the PCs to the switch, then connect the switch to the router's Gigabit Ethernet port. Remember to use the Gigabit Ethernet port when connecting the switch to the router.
+Next, we'll use Ethernet ports to connect the PCs to the switch, then connect the switch to the router's Gigabit Ethernet port. Remember to use a Gigabit Ethernet port when connecting the switch to the router. For the second switch, we'll use the Gigabit Ethernet 0/1 port.
+
