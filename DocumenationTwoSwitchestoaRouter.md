@@ -15,3 +15,4 @@ Then we'll head to the router's CLI and do basically the same thing we did durin
 
 ![](img/Testing.png)
 
+And that's basically it! You'll just need to configure the IP addresses for the computers, which you can find in BasicDocumentation.md. After that, you'll have two networks connected to a single router. Pretty cool...
