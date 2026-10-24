@@ -1,3 +1,7 @@
+# Basic Network Configuration
+
+## Step 1: Understand the Network Topology
+
 This is what we're trying to achieve: a basic network that allows me to send PDUs between computers through a router.
 
 ![](img/forexample.png)
@@ -6,14 +10,19 @@ We will be using the Cisco 2911 router because it is a suitable model for practi
 
 ![](img/addingphysical.png)
 
+## Step 2: Connect the Devices
+
 We will use Copper Straight-Through cables to connect the computers to the switches and the switches to the router. First, select the Copper Straight-Through cable, click on a computer, and connect the cable to its FastEthernet0 port. Then, click on the switch and connect the other end to a FastEthernet port, such as FastEthernet0/1. Repeat these steps for the other computers, using a different Ethernet port on the switch for each computer.
 
 ![](img/Wiring.png)
 
+## Step 3: Connect the Switch to the Router
 
 We will use the gigabit Ethernet port on the switch to connect it to the router.
 
 ![](img/route.png)
+
+## Step 4: Configure the Router's Interface
 
 Now, we'll move on to the configuration part. We need to configure the Gigabit Ethernet port that we used earlier to connect the switch to the router.
 
@@ -33,6 +42,7 @@ We can also configure `g0/1` if we need to connect another switch to the router.
 
 ![](img/configureport.png)
 
+## Step 5: Configure the Computers' IP Addresses
 
 Next, we'll configure the PC's IP address as well.
 
@@ -44,6 +54,8 @@ Next, we'll configure the PC's IP address as well.
 Repeat the same steps for the other computer. Remember that each computer must have a **unique IP address** on the same network, so you cannot assign both computers the same host address.
 
 ![](img/pcconfig.png)
+
+## Step 6: Test the Network Connection
 
 And there you go! You should now be able to send PDUs to the other computer. If the PDU still shows **Failed**, the network might need a bit more time to process everything. Just fast-forward the simulation a little, and the PDU should eventually show **Successful**. Good stuff :3
 
